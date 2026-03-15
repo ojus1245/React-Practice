@@ -11,6 +11,11 @@ function App() {
     if (counter<20){
 
       setCounter(counter+1)
+      setCounter(counter+1)
+      setCounter(counter+1)
+      setCounter(counter=>counter+1)
+      setCounter(counter+1)
+      setCounter(counter=>counter+1)
     }
     else{
       alert('Reached maximum count')
